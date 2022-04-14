@@ -7,9 +7,11 @@ D:\code>cd git_learn
 
 D:\code\git_learn>git init
 Initialized empty Git repository in D:/code/git_learn/.git/
+
 D:\code\git_learn>
 
 D:\code\git_learn>git remote add origin "https://github.com/pampanaharish/gitpractice.git"
+
 D:\code\git_learn>
 
 D:\code\git_learn>git pull origin master
@@ -45,6 +47,7 @@ D:\code\git_learn>git commit -m "My 1st commit"
 [master d939892] My 1st commit
  1 file changed, 18 insertions(+)
  create mode 100644 Git_commands.txt.txt
+ 
 D:\code\git_learn>git push origin main
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/pampanaharish/gitpractice.git'
