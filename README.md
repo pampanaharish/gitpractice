@@ -71,3 +71,56 @@ remote:
 To https://github.com/pampanaharish/gitpractice.git
  * [new branch]      master -> master
 D:\code\git_learn>
+
+D:\code\git_learn>git branch
+* master
+
+D:\code\git_learn>git branch develop
+
+D:\code\git_learn>git branch
+  develop
+* master
+
+D:\code\git_learn>git branch  testing
+
+D:\code\git_learn>git branch
+  develop
+* master
+  testing
+
+D:\code\git_learn>git branch develop
+fatal: A branch named 'develop' already exists.
+
+D:\code\git_learn>git checkout develop
+Switched to branch 'develop'
+M       README.md
+
+D:\code\git_learn>git branch
+* develop
+  master
+  testing
+
+D:\code\git_learn>
+
+D:\code\git_learn>git add .
+
+D:\code\git_learn>git commit -m "4th commit"
+[develop 97192f4] 4th commit
+ 1 file changed, 3 insertions(+)
+
+D:\code\git_learn>git push origin develop
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 340.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/pampanaharish/gitpractice/pull/new/develop
+remote:
+To https://github.com/pampanaharish/gitpractice.git
+ * [new branch]      develop -> develop
+
+D:\code\git_learn>
