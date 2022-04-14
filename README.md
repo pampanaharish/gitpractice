@@ -1,14 +1,20 @@
 # gitpractice
 Practice git commands 
+
 D:\code>mkdir git_learn
+
 D:\code>cd git_learn
+
 D:\code\git_learn>git init
 Initialized empty Git repository in D:/code/git_learn/.git/
 D:\code\git_learn>
+
 D:\code\git_learn>git remote add origin "https://github.com/pampanaharish/gitpractice.git"
 D:\code\git_learn>
+
 D:\code\git_learn>git pull origin master
 fatal: couldn't find remote ref master
+
 D:\code\git_learn>git pull origin main
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
@@ -18,6 +24,7 @@ From https://github.com/pampanaharish/gitpractice
  * branch            main       -> FETCH_HEAD
  * [new branch]      main       -> origin/main
 D:\code\git_learn>
+
 D:\code\git_learn>git status
 On branch master
 Untracked files:
@@ -33,6 +40,7 @@ On branch master
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   Git_commands.txt.txt
+
 D:\code\git_learn>git commit -m "My 1st commit"
 [master d939892] My 1st commit
  1 file changed, 18 insertions(+)
@@ -40,6 +48,7 @@ D:\code\git_learn>git commit -m "My 1st commit"
 D:\code\git_learn>git push origin main
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/pampanaharish/gitpractice.git'
+
 D:\code\git_learn>git push origin master
 Select an authentication method for 'https://github.com/':
   1. Web browser (default)
